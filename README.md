@@ -19,21 +19,21 @@ To create a virtual environment, navigate to your project directory and run the 
 python -m venv .venv
 ```
 
-##Activating the Virtual Environment
+## Activating the Virtual Environment
 Before you can use the packages installed in your virtual environment, you need to activate it. The activation command varies depending on your operating system:
 
 ```bash
 .venv\Scripts\activate
 ```
 
-##Upgrading pip
+## Upgrading pip
 After activating your virtual environment, it's a good practice to upgrade
 
 ```bash
 pip install --upgrade pip
 ```
 
-##Installing Packages
+## Installing Packages
 To install packages within your virtual environment, use the following command:
 
 ```bash
@@ -46,14 +46,14 @@ To instal package from a requirements file use the below command:
 pip install -r requirements.txt
 ```
 
-##Deactivating the Virtual Environment
+## Deactivating the Virtual Environment
 When you are done working in your virtual environment, you can deactivate it by running:
 
 ```bash
 deactivate
 ```
 
-##Managing Dependencies with Requirements Files
+## Managing Dependencies with Requirements Files
 
 To keep track of the packages you have installed in your virtual environment, you can create a
 ```bash
